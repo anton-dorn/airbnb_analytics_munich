@@ -2,6 +2,9 @@
 
 Data-driven revenue analysis and market segmentation of Munich Airbnb listings using multivariate linear regression and K-Means clustering. Developed as a group project at Seoul National University Business School.
 
+## Observations & Disclaimers
+The objective was to identify correlations, not causal relationships. Multicollinearity was intentionally not addressed as the priority was pattern recognition and predictive potential. The reported adjusted R² of 0.48 is an in-sample metric and does not exclude overfitting. Further due diligence is required to assess factors the model cannot capture (building condition, interior design, listing photo quality, etc.).
+
 ## Feature Engineering
 Missing values were identified and imputed. Distance to key Munich landmarks (Marienplatz, Central Station, Oktoberfest venue) was computed using the Haversine formula and added as location features. The number of amenities per listing was counted and added as an additional predictor.
 
@@ -15,9 +18,6 @@ A "Potential" metric was defined as the gap between predicted and actual estimat
 ## Files
 - `airbnb-data-munich.csv`: dataset used in the pipeline
 - `airbnb-munich-main.ipynb`: full Python pipeline
-
-## Observations & Disclaimers
-The objective was to identify correlations, not causal relationships. Multicollinearity was intentionally not addressed as the priority was pattern recognition and predictive potential. Further due diligence is required to assess factors the model cannot capture (building condition, interior design, listing photo quality, etc.).
 
 ## Source
 Cox, M. Inside Airbnb. http://insideairbnb.com/get-the-data/, 2024.
