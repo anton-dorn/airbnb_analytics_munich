@@ -34,5 +34,6 @@ EDA: Data cleaning and creation of a "Potential" metric (Predicted vs. Actual Re
 OLS Regression: Estimating annual revenue with feature selection based on p-values and K-Fold Cross-Validation.
 
 K-Means Clustering: Segmenting the market to find undervalued listings and investment opportunities.
+
 ## Source
 Cox, M. Inside Airbnb. http://insideairbnb.com/get-the-data/, 2024.
