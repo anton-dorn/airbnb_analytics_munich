@@ -3,7 +3,7 @@
 Data-driven revenue analysis and market segmentation of Munich Airbnb listings using multivariate linear regression and K-Means clustering. Developed as a group project at Seoul National University Business School.
 
 ## Feature Engineering
-Distance to key Munich landmarks (Marienplatz, Central Station, Oktoberfest venue) was computed using the Haversine formula and added as location features. The number of amenities per listing was counted and added as an additional predictor.
+Missing values were identified and imputed. Distance to key Munich landmarks (Marienplatz, Central Station, Oktoberfest venue) was computed using the Haversine formula and added as location features. The number of amenities per listing was counted and added as an additional predictor.
 
 ## Machine Learning Pipeline
 Falsely set prices and inactive listings were identified and removed. The dataset was used to build and compare two OLS regression models predicting estimated annual revenue.
